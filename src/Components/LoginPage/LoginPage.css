@@ -1,0 +1,137 @@
+/* body {
+  background-color: whitesmoke;
+  width: 100%;
+}
+
+.login-box-main .login-box {
+  background-color: white;
+  border: 1px solid rgba(232, 227, 227, 0.946);
+  box-sizing: border-box;
+  width: 800px;
+  display: flex;
+  text-align: center;
+  padding: 70px;
+}
+
+.login-box-main .login-box .login-box-head h1 {
+  font-family: pacifico, sans-serif;
+  font-style: normal;
+  font-weight: 300;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+}
+
+button {
+  margin-top: 17px;
+  display: flex;
+  margin-left: 94px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: rgb(0, 195, 52);
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+.box-for-registration {
+  background-color: white;
+  border: 1px solid rgba(232, 227, 227, 0.946);
+  box-sizing: border-box;
+  display: flex;
+  padding: 13px;
+} */
+
+.login-page-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  flex-direction: row;
+  margin-top: 100px;
+}
+.login-page-wrapper .instagram-login-picture img {
+  width: 415px;
+  margin-right: 30px;
+}
+.login-page-wrapper .login-page-main-container {
+  background-color: whitesmoke;
+  width: 370px;
+  height: 379px;
+}
+
+.input-box-date .email-for-login #email {
+  padding: 9px 0 7px 8px;
+}
+.input-box-date .password-for-login input #password {
+  padding: 9px 0 7px 8px;
+}
+.create-account-box .create-account {
+  background-color: whitesmoke;
+  margin-top: 10px;
+  height: 70px;
+}
+.login-page-wrapper .login-box-header-picture img {
+  width: 200px;
+  height: 65px;
+  padding-top: 20px;
+}
+.download-app .img-google,
+.download-app .img-microsoft {
+  width: 155px;
+  height: 55px;
+}
+.input-box-date #email,
+.input-box-date #password {
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-box .input-box-date {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.login-box .button-for-login-box .button-for-login {
+  background-color: rgba(0, 149, 246, 0.3);
+  width: 288px;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  border: none;
+}
+
+.login-page-main-container .login-with-Facebook {
+  color: #2f53a0;
+  font-weight: 700;
+}
+
+.login-page-main-container .forgot-password-box {
+  color: #006399;
+  margin-top: 20px;
+}
+
+.create-account-box .create-account {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+
+.create-account-box .create-account .for-register {
+  color: rgb(33, 137, 201);
+  font-weight: 600;
+}

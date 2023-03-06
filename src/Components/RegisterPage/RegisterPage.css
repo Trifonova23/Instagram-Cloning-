@@ -1,0 +1,155 @@
+/* .App {
+  margin-left: 50%;
+}
+.create-account-box {
+  background-color: rgb(213, 255, 45);
+  border: 2px solid rgb(213, 255, 45);
+  box-sizing: border-box;
+  width: 800px;
+  height: 397px;
+  border-radius: 60px;
+  display: flex;
+  text-align: center;
+  margin-left: 230px;
+  padding: 70px;
+}
+div {
+  display: flex;
+  flex-direction: column;
+  max-width: fit-content;
+}
+button {
+  border-radius: 36px;
+  margin-top: 9px;
+  width: 52%;
+  display: flex;
+  margin-left: 58px;
+  font-weight: bold;
+  cursor: pointer;
+}
+button:hover {
+  background-color: rgb(0, 195, 52);
+}
+button p {
+  margin-left: 7px;
+}
+input {
+  border-radius: 36px;
+  width: 244px;
+}
+label {
+  font-weight: bold;
+} */
+
+.register-box-wrapper {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.register-box-wrapper .register-box-main-container {
+  background-color: white;
+  width: 350px;
+  height: 720px;
+  margin-bottom: 30px;
+  border: 1px solid #bdb9b9;
+}
+.register-box-main-container .register-box-header-picture {
+  width: 200px;
+  height: 80px;
+  margin-top: 20px;
+}
+.register-box-header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.register-box-header .header-text {
+  width: 280px;
+  font-size: 15px;
+  color: #8b8b8b;
+  font-weight: bold;
+}
+
+.button-login-FB {
+  color: white;
+  background-color: rgb(64, 154, 238);
+  border-radius: 5px;
+  border: none;
+  width: 280px;
+  height: 30px;
+}
+.register-box-main-container .register-box-information-for-user {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.register-box-information-for-user #email,
+#full-name,
+#name,
+#password {
+  width: 280px;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #dddada;
+  margin-top: 7px;
+  background: #ebe8e8;
+}
+.register-box-main-container .information-box-for-privacy-policy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+}
+.register-box-main-container .information-box-for-privacy-policy p {
+  width: 260px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-size: 12px;
+  margin-bottom: 20px;
+}
+.information-box-for-privacy-policy {
+  display: flex;
+}
+.register-box-wrapper .login-with-account-box {
+  background-color: whitesmoke;
+  width: 350px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid #bdb9b9;
+  align-items: center;
+}
+
+.register-box-main-container .button-to-register-user {
+  color: white;
+  background-color: rgb(145, 202, 255);
+  border-radius: 5px;
+  border: none;
+  width: 280px;
+  height: 30px;
+}
+
+.register-box-information-for-user #email,
+.register-box-information-for-user #name,
+.register-box-information-for-user #full-name,
+.register-box-information-for-user #password {
+  padding-left: 10px;
+}
+
+.register-download-app .register-google-pic {
+  width: 130px;
+}
+
+.register-download-app .register-microsoft-pic {
+  height: 38px;
+  border-radius: 5px;
+}

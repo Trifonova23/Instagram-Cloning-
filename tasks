@@ -1,0 +1,7 @@
+1. Create 3 pages - Login / Register / Home
+2. Add react-router-dom
+
+
+1/ My profile - new component/page
+2/ Heart - create drop down with notifications
+3/ Other user pages - redirect to new pages ( Routing ) 
